@@ -14,7 +14,7 @@
     </div>
 <?php endif; ?>
 <div class="login_form col-lg-offset-3">
-    <form class="form-horizontal" role="form" action="/tdm/login" method="post">
+    <form class="form-horizontal" role="form" action="login" method="post">
         <div class="form-group">
             <label for="Login" class="col-sm-2 control-label">Логин</label>
             <div class="col-sm-10">

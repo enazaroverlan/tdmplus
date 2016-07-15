@@ -32,7 +32,7 @@ $allPosts = Database::GetAllPosts();
             </div>
             <div id="collapseOne" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
                 <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="post" action="/tdm/addPost">
+                    <form class="form-horizontal" role="form" method="post" action="/addPost">
                         <div class="form-group">
                             <label for="title" class="col-sm-2 control-label">Заголовок</label>
                             <div class="col-sm-10">
@@ -57,7 +57,7 @@ $allPosts = Database::GetAllPosts();
 <?php endif; ?>
 <?php foreach($allPosts as $post): ?>
 <div class="post">
-    <div class="post_title_entry"><a href="/tdm/post/<?=$post['post_id']?>"><?=$post['post_title']?></a></div>
+    <div class="post_title_entry"><a href="/post/<?=$post['post_id']?>"><?=$post['post_title']?></a></div>
     <div class="post_content"><?=substr($post['post_title'], 300)?></div>
     <div class="post_date"><?=$post['post_date']?></div>
     <?php if($accessAllow): ?>
@@ -67,7 +67,7 @@ $allPosts = Database::GetAllPosts();
             }
         ?>
         <div class="post_edit_panel">
-            <a href="/tdm/removePost/<?=$post['post_id']?>">Удалить</a> | <a href="/tdm/editPost/<?=$post['post_id']?>">Редактровать</a>
+            <a href="/removePost/<?=$post['post_id']?>">Удалить</a> | <a href="/editPost/<?=$post['post_id']?>">Редактровать</a>
         </div>
     <?php endif; ?>
 </div>

@@ -7,7 +7,7 @@
  */
 ?>
 <p class="page_title">Услуги</p>
-<img src="/tdm//Resources/images/lawyer_man.jpg" width="100%" />
+<img src="/Resources/images/lawyer_man.jpg" width="100%" />
 <br />
 <br />
 <strong>Основные услуги:</strong>

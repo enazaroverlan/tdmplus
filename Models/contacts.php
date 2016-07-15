@@ -13,7 +13,7 @@
 <p>Тел: +996 779 906 126, +996 772 651 142 </p>
 <br />
 <p><span class="strong-text">Или оставьте нам письмо:</span></p>
-<form role="form" method="post" id="contactform" action="/tdm/requests/getAjaxRequests.php?action=mailto">
+<form role="form" method="post" id="contactform" action="/requests/getAjaxRequests.php?action=mailto">
     <div class="form-group">
         <label for="name">Ваше имя</label>
         <input name="name" type="text" class="form-control" id="name" placeholder="Например, Николай">
