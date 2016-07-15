@@ -1,0 +1,382 @@
+body {
+    font-family: sans-serif;
+    font-size: 12pt;
+    background: White;
+    padding:  0;
+    margin: 0;
+}
+
+.header_logo {
+    width: 100%;
+    height: 152px;
+    background: url("../images/logo/header_background.png");
+    margin: 30px auto 0 auto;
+    position:relative;
+    padding-top: 37px;
+}
+
+.header_top_border{
+    width: 40px;
+    height: 39px;
+    background: url("../images/logo/topBorder.png") no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.header_bottom_border {
+    width: 40px;
+    height: 39px;
+    background: url("../images/logo/bottomBorder.png") no-repeat;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+.logo {
+    width: 145px;
+    height: 85px;
+    background: url("../images/logo/middleMainLogo.png") no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1000px;
+}
+
+.top_nav_menu {
+    margin: 20px auto 20px auto;
+    /*align: center;*/
+    width: 80%;
+    position: relative;
+    height: 60px;
+    border: 1px solid white;
+    /*opacity: 0;*/
+}
+
+.top_nav_elements {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.top_nav_element ul {
+    text-align: center;
+}
+
+.top_nav_element ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    font-size: 16pt;
+    color: #122b40;
+}
+
+.top_nav_element ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #1b6d85;
+}
+
+.top_nav_element ul li:Active {
+    color: #204d74;
+}
+
+.top_nav_element ul li.active {
+    text-decoration: underline;
+    color: #1b6d85;
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    font-size: 16pt;
+}
+
+.content {
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+    /*opacity: 0;*/
+    display: none;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+.footer {
+    width: 80%;
+    height: 100px;
+    margin: 10px auto;
+    /*opacity: 0;*/
+    padding: 30px;
+    text-align: center;
+}
+
+.admin_window {
+    width: 100%;
+    height: 100%;
+}
+
+.admin_login_view {
+    width: 400px;
+    height: 200px;
+    margin: 300px auto auto auto;
+    border: 1px solid blue;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+.login_form {
+    width: 50%;
+    height: 60%;
+    margin: 50px 40px;
+}
+
+.admin-menu-list {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #122b40;
+    border-bottom: 1px solid #122b40;
+}
+
+ul li.admin_menu_element {
+    float: left;
+    width: 5%;
+    list-style-type: none;
+    font-size: 16pt;
+    color: #122b40;
+    text-align: center;
+    padding-top: 10px;
+}
+
+ul li.admin_menu_element:Hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #1b6d85;
+}
+
+ul li.admin_menu_element:Active {
+    color: #204d74;
+}
+
+ul li.admin_menu_element_active {
+    float: left;
+    width: 5%;
+    list-style-type: none;
+    font-size: 16pt;
+    color: #122b40;
+    background: #31b0d5;
+    text-align: center;
+    height: 49px;
+    padding-top: 10px;
+    box-shadow: inset 0 0 6px;
+}
+
+.admin-main-button {
+    float: left;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.admin-main-button_active {
+    float: left;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    color: #31b0d5;
+    background-color: #122b40;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.admin-main-button:Hover {
+    color: #31b0d5;
+    background-color: #122b40;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.admin-pages-table {
+    padding-top: 0;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.admin-pages-table table {
+    width: 30%;
+    margin-right: 10px;
+    float: left;
+}
+
+.admin_page_editor_panel {
+    margin-left: auto;
+    margin-top: 0;
+    width: 50%;
+    padding: 10px;
+    display: none;
+}
+
+.admin_page_editor_panel form {
+    height: 200px;
+}
+
+.admin_logout_button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.admin_logout_button:Hover {
+    color: #31b0d5;
+    background-color: #122b40;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.admin_page_adder_panel {
+    margin-left: auto;
+    margin-top: 0;
+    width: 50%;
+    padding: 10px;
+    display: none;
+}
+
+.admin-posts-table {
+    padding-top: 0;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.admin-posts-table table {
+    width: 30%;
+    margin-right: 10px;
+    float: left;
+}
+
+.page_title {
+    text-align: center;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.page_content {
+    text-align: justify;
+    font-size: 8pt;
+}
+
+.socialLinks {
+    float: left;
+    width: 70px;
+    margin-left: 0;
+    margin-top: auto;
+    position: relative;
+    left: -70px;
+}
+
+.socLink {
+}
+
+.socLink:Hover {
+    cursor: pointer;
+    color: #269abc;
+}
+
+.admin_post_editor_panel {
+    margin-left: auto;
+    margin-top: 0;
+    width: 50%;
+    padding: 10px;
+    display: none;
+}
+
+.admin_post_adder_panel {
+    margin-left: auto;
+    margin-top: 0;
+    width: 50%;
+    padding: 10px;
+    display: none;
+}
+
+.post_title {
+    text-align: center;
+    font-size: 25pt;
+    text-decoration: none;
+    color: #122b40;
+}
+
+.post_title:Hover {
+    text-decoration: underline;
+    color: #31b0d5;
+    cursor: pointer;
+}
+
+.post_content {
+    width: 50%;
+    text-align: justify;
+    font-size: 11pt;
+    margin:0 auto;
+}
+
+.post_date {
+    text-align: center;
+    font-size: 8pt;
+}
+
+.post_title_entry {
+    text-align: center;
+    font-size: 25pt;
+    text-decoration: none;
+    color: #122b40;
+}
+
+
+.post_edit_panel {
+    margin-left: 200px;
+}
+
+/*================================== About Company ============================================*/
+strong {
+    font-size: 16pt;
+}
+
+.bordered-text {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.strong-text {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.italic-text {
+    font-size: 16pt;
+    margin-left: 20px;
+}
+
+.italic {
+    font-style:italic;
+}
+/*================================== End About Company ========================================*/
+
+
+.btn-loading {
+
+}
